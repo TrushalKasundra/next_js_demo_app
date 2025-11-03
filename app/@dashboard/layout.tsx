@@ -17,7 +17,7 @@ const layout = ({
           <div>{users}</div>
           <div>{updates}</div>
         </div>
-        <div style={{ display: "flex", flex:1 }}>{notification}</div>
+        <div style={{ display: "flex", flex: 1 }}>{notification}</div>
       </div>
     </>
   );

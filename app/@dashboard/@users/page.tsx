@@ -1,4 +1,4 @@
-import CardTempelate from "@/src/component/card";
+import CardTempelate from "@/app/component/card";
 
 const usersMatrics = () => {
   return (

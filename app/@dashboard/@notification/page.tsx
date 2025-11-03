@@ -1,8 +1,8 @@
-import CardTempelate from "@/src/component/card";
+import CardTempelate from "@/app/component/card";
 
 const notification = () => {
   return (
-    <>
+    <div className="w-20">
       <CardTempelate>
         <div className="marquee">
           <p>
@@ -13,7 +13,7 @@ const notification = () => {
           </p>
         </div>
       </CardTempelate>
-    </>
+    </div>
   );
 };
 export default notification;

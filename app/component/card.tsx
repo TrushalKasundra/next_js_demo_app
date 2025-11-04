@@ -1,10 +1,10 @@
-import { Card } from "antd";
 
-const CardTempelate = ({ children }: { children: React.ReactNode }) => {
+const CardTempelate = ({ children, title }: { children: React.ReactNode, title: string }) => {
   return (
-    <>
-      <Card style={{color:'blue', margin:"1rem"}}>{children}</Card>
-    </>
+      <div className=" m-4 h-full p-[20px] ">
+        <h2 className="text-xs font-bold">{title}</h2>
+        {children}
+      </div>
   );
 };
 

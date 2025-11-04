@@ -33,6 +33,7 @@
   width: 450px;
   height: auto;
   box-sizing: border-box;
+  overflow-y: hidden;
 }
 .marquee p {
   display: inline-block;

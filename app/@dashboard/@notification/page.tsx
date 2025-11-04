@@ -3,13 +3,13 @@ import CardTempelate from "@/app/component/card";
 const notification = () => {
   return (
     <div className="w-20">
-      <CardTempelate>
+      <CardTempelate  title="Notifications">
         <div className="marquee">
-          <p>
-            this is notification page. Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Blanditiis eaque nemo iste? Sapiente ipsam
-            excepturi mollitia, at qui enim, eveniet vitae necessitatibus ea eum
-            delectus aliquid culpa eligendi explicabo eaque?
+          <p>🔔 Don't miss our summer sale! Up to 50% off on selected items. Shop now and save big! 🔔 
+            <br/>
+            🔔 New arrivals are here! Check out the latest trends and styles in our collection. 🔔
+            <br/>
+            🔔 Exclusive offer for newsletter subscribers! Get an extra 10% off your next purchase. 🔔
           </p>
         </div>
       </CardTempelate>

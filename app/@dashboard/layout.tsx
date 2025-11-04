@@ -11,11 +11,11 @@ const layout = ({
 }) => {
   return (
     <>
-      <div>{children}</div>
+      {children}
       <div style={{ display: "flex" }}>
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <div>{users}</div>
-          <div>{updates}</div>
+          {users}
+          {updates}
         </div>
         <div style={{ display: "flex", flex: 1 }}>{notification}</div>
       </div>

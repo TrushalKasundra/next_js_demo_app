@@ -2,10 +2,9 @@ import CardTempelate from "@/app/component/card";
 
 const updates = () => {
   return (
-    <>
-      <CardTempelate>
-        <p>this is updates page</p></CardTempelate>
-    </>
+      <CardTempelate title="Latest Updates">
+        <p className="text-blue-600"> New premium T-shirts are now available!</p>
+      </CardTempelate>
   );
 };
 export default updates;
